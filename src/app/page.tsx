@@ -1,21 +1,5 @@
 "use client";
 
-// Ignore all this:
-// Testing button-test build: Simple components plus Button without Icon dependency
-// Using the super simple icon implementation and modified Button
-// import { 
-//   Keyboard as StitchKeyboard,
-//   Card,
-//   Icon,
-//   Text,
-//   Heading,
-//   Button
-// } from "@bonterratech/stitch-extension";
-// import { coreTokens as $ } from '@bonterratech/stitch-tokens/coreTokens.stylex';
-
-
-
-
 // Simple Repo. Comment Icon back to to cause error.
 import { Keyboard as SimpleKeyboard } from '@simplerepo/simplerepo';
 // import { Icon as SimpleIcon } from '@simplerepo/simplerepo';
@@ -51,32 +35,6 @@ export default function Home() {
         <div>Hello</div>
       </SimpleKeyboard>
       {/* <SimpleIcon name="house" size="small" color="default" /> */}
-
-
-
-
-      {/* Ignore all of this: */}
-      {/* <div {...stylex.props(styles.row)}>
-        <h2>Icons and Basic Components</h2>
-        <div {...stylex.props(styles.iconWrapper)}>
-          <Icon name="heart" size="small" color="default" />
-          <Icon name="star" size="medium" color="success" />
-          <Icon name="check" size="large" color="warning" />
-        </div>
-        <p>Using a Unicode-only implementation with no FontAwesome</p>
-      </div>
-      
-      <div {...stylex.props(styles.row)}>
-        <h2>Button Without Icon Import</h2>
-        <Card>
-          <Heading level={2}>Testing Button Component</Heading>
-          <Text>This is a text component from stitch-extension</Text>
-          <Button variant="primary">Primary Button</Button>
-          <Button variant="default">Default Button</Button>
-          <Button variant="critical">Critical Button</Button>
-          <StitchKeyboard>Keyboard from stitch</StitchKeyboard>
-        </Card>
-      </div> */}
     </main>
   );
 }
