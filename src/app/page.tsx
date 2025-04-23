@@ -1,5 +1,6 @@
 "use client";
 
+// Ignore all this:
 // Testing button-test build: Simple components plus Button without Icon dependency
 // Using the super simple icon implementation and modified Button
 // import { 
@@ -10,9 +11,14 @@
 //   Heading,
 //   Button
 // } from "@bonterratech/stitch-extension";
+// import { coreTokens as $ } from '@bonterratech/stitch-tokens/coreTokens.stylex';
+
+
+
+
+// Simple Repo. Comment Icon back to to cause error.
 import { Keyboard as SimpleKeyboard } from '@simplerepo/simplerepo';
 // import { Icon as SimpleIcon } from '@simplerepo/simplerepo';
-// import { coreTokens as $ } from '@bonterratech/stitch-tokens/coreTokens.stylex';
 import * as stylex from '@stylexjs/stylex';
 
 const styles = stylex.create({
@@ -41,10 +47,15 @@ export default function Home() {
   return (
     <main {...stylex.props(styles.container)}>
       <h1>Button Test Build</h1>
-      {/* <SimpleIcon name="house" size="small" color="default" /> */}
       <SimpleKeyboard outline>
         <div>Hello</div>
       </SimpleKeyboard>
+      {/* <SimpleIcon name="house" size="small" color="default" /> */}
+
+
+
+      
+      {/* Ignore all of this: */}
       {/* <div {...stylex.props(styles.row)}>
         <h2>Icons and Basic Components</h2>
         <div {...stylex.props(styles.iconWrapper)}>
