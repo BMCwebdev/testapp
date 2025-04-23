@@ -47,14 +47,14 @@ export default function Home() {
   return (
     <main {...stylex.props(styles.container)}>
       <h1>Button Test Build</h1>
-      <SimpleKeyboard outline>
+      <SimpleKeyboard>
         <div>Hello</div>
       </SimpleKeyboard>
       {/* <SimpleIcon name="house" size="small" color="default" /> */}
 
 
 
-      
+
       {/* Ignore all of this: */}
       {/* <div {...stylex.props(styles.row)}>
         <h2>Icons and Basic Components</h2>
