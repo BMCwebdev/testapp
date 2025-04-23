@@ -13,8 +13,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@bonterratech/stitch-extension": "file:../stitch/packages/stitch-extension",
-    "@bonterratech/stitch-tokens": "^0.0.20",
     "@simplerepo/simplerepo": "file:../simplerepo",
     "@stylexjs/stylex": "^0.12.0",
     "next": "15.0.0",

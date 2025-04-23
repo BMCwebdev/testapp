@@ -6,8 +6,9 @@ const autoprefixer = require('autoprefixer');
 
 const nextConfig = {
   transpilePackages: [
-    "@bonterratech/stitch-tokens",
-    "@bonterratech/stitch-extension",
+    // "@bonterratech/stitch-tokens",
+    // "@bonterratech/stitch-extension",
+    "@simplerepo/simplerepo",
   ],
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
 };

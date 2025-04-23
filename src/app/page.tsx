@@ -10,7 +10,8 @@
 //   Heading,
 //   Button
 // } from "@bonterratech/stitch-extension";
-import { Keyboard as SimpleKeyboard, Icon as SimpleIcon } from '@simplerepo/simplerepo';
+import { Keyboard as SimpleKeyboard } from '@simplerepo/simplerepo';
+// import { Icon as SimpleIcon } from '@simplerepo/simplerepo';
 // import { coreTokens as $ } from '@bonterratech/stitch-tokens/coreTokens.stylex';
 import * as stylex from '@stylexjs/stylex';
 
@@ -40,7 +41,7 @@ export default function Home() {
   return (
     <main {...stylex.props(styles.container)}>
       <h1>Button Test Build</h1>
-      <SimpleIcon name="house" size="small" color="default" />
+      {/* <SimpleIcon name="house" size="small" color="default" /> */}
       <SimpleKeyboard outline>
         <div>Hello</div>
       </SimpleKeyboard>
